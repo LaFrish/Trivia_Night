@@ -23,7 +23,7 @@ Body {
 
 h1 {
   font-family: 'Showtime';
-monospace-size: 150px;
+	font-size: 150px;
   color: #ffffff;
   text-align: center;
 }
