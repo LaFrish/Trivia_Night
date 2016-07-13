@@ -28,7 +28,6 @@ function popout(){
       $(this).hide();
       $('.window').hide();
     });
-
   });
 }
 
