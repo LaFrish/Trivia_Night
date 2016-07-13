@@ -1,17 +1,18 @@
-<link href='https://fonts.googleapis.com/css?family=Bangers|Denk+One|Playfair+Display:400,900italic,900,700italic,700,400italic|Abril+Fatface|Kadwa:400,700|Carter+One|Laila:400,300,700,600,500|Elsie:400,900|Rozha+One|Playfair+Display+SC:400,400italic,700,700italic,900,900italic|Volkhov:400,700italic,700,400italic|Roboto+Mono:400,700,500,100,300|Tinos:400,700|Nunito:400,700,300|Corben:400,700' rel='stylesheet' type='text/css'>
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display);
 
 
 @font-face {
     font-family: 'Showtime';
     src:url('Showtime.ttf.woff') format('woff'),
+				url('Showtime.ttf') format('tff'),
         url('Showtime.ttf.svg#Showtime') format('svg'),
         url('Showtime.ttf.eot'),
         url('Showtime.ttf.eot?#iefix') format('embedded-opentype');
         font-weight: normal;
         font-style: normal;
 }
-head {
-}
+
+
 Body {
 	text-align: center;
 	background: url("yellow-striped-background-seamless.jpg")no-repeat center center fixed;
@@ -21,8 +22,8 @@ Body {
 }
 
 h1 {
-  font-family: 'Showtime', serif;
-  font-size: 150px;
+  font-family: 'Showtime';
+monospace-size: 150px;
   color: #ffffff;
   text-align: center;
 }
@@ -132,13 +133,13 @@ button {
 }
 
 h3 {
-  font-family: 'Showtime', serif;
+  font-family: 'Showtime', monospace;
   font-size: 200px;
   color: #ffffff;
   text-align: center;
 }
 h4 {
-	font-family: 'Showtime', serif;
+	font-family: 'Showtime', monospace;
   font-size: 50px;
 	color: #ffffff;
   text-align: center;
@@ -205,22 +206,21 @@ h4 {
 #boxes #dialog {
   width: 750px;
   height: 300px;
-  /*padding: 10px;*/
   background-color: #ffffff;
-  font-family: 'Abril Fatface', sans-serif;
+  font-family: 'Abril Fatface', monospace;
   font-size: 24pt;
 	color: #000;
 	text-align: center;
 }
 h5{
-	font-family: 'Abril Fatface', sans-serif;
+	font-family: 'Abril Fatface', monospace;
 	font-size: 20pt;
 	z-index: 100000
 	color: #E7C12D;
 	text-align: center;
 }
 h6{
-	font-family: 'Abril Fatface', sans-serif;
+	font-family: 'Abril Fatface', monospace;
 	font-size: 15pt;
 	z-index: 100000
 	color: #000;
@@ -235,7 +235,7 @@ h6{
 }
 #popup button{
 	background-color: #60ADA2;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Oswald', monospace;
 	font-size: 1.25em;
 	font-weight: 400;
 	text-transform: uppercase;
